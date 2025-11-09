@@ -42,3 +42,42 @@ gerador-cv/
 └── js/
 └── script.js
 
+
+## Como executar o projeto localmente
+
+1. Copie o projeto para a pasta do XAMPP: C:\xampp\htdocs\gerador-cv
+
+2. Inicie o **Apache** no XAMPP Control Panel.
+
+3. No navegador, acesse: http://localhost/gerador-cv
+
+4. Preencha o formulário, adicione experiências e gere seu currículo!
+
+
+## Versionamento com Git
+
+Comandos principais usados durante o desenvolvimento:
+
+```bash
+git init
+git add .
+git commit -m "Primeiro commit"
+git branch -M main
+git remote add origin https://github.com/heldedm/gerador-cv.git
+git push -u origin main
+
+
+Para cada atualização:
+git add .
+git commit -m "Descrição da alteração"
+git push
+
+
+Repositório público
+
+https://github.com/heldedm/gerador-cv
+
+Autor
+
+Helder Borges
+Desenvolvedor iniciante em PHP e entusiasta de tecnologia.
