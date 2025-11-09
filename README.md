@@ -1,7 +1,3 @@
-HEAD
-\# Gerador de Currículo (PHP + Bootstrap)
-
-
 
 # Gerador de Currículos
 
@@ -34,18 +30,14 @@ O sistema permite que o usuário preencha seus dados pessoais, experiências pro
 
 ##  Estrutura de pastas
 
-gerador-cv/
-│
-├── index.php
-├── gerar_curriculo.php
-├── README.md
-│
-├── css/
-│ └── style.css
-│
-└── js/
-└── script.js
-
+gerador-cv
+    index.php
+    gerar_curriculo.php
+    README.md
+    css/
+       style.css
+    js/
+       script.js
 
 
 # gerador-cv
