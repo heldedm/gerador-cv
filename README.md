@@ -1,54 +1,52 @@
+HEAD
 \# Gerador de Currículo (PHP + Bootstrap)
 
 
 
-\## Descrição
+# Gerador de Currículos
 
-Projeto simples para gerar um currículo a partir de um formulário. Atende aos requisitos:
+Projeto desenvolvido por Helder Borges para a disciplina de Fundamentos da programação para internet.  
+O sistema permite que o usuário preencha seus dados pessoais, experiências profissionais e referências, gerando automaticamente um currículo formatado para visualização e impressão.
 
-\- Formulário em HTML com Bootstrap;
+---
 
-\- Cálculo automático da idade com JavaScript;
+##   Funcionalidades
 
-\- Adição dinâmica de formações e experiências com jQuery;
+-  Cadastro de dados pessoais (nome, idade, data de nascimento, contato)
+-  Cálculo automático da idade com **JavaScript**
+-  Adição dinâmica de **experiências profissionais** e **referências pessoais** usando jQuery
+-  Geração automática do currículo com **PHP**
+-  Opção de impressão/download usando `window.print()`
+-  Interface moderna feita com **Bootstrap 5**
 
-\- Geração do currículo formatado em PHP;
+---
 
-\- Botão `Imprimir / Salvar como PDF` usando `window.print()`;
+##  Tecnologias utilizadas
 
-\- Pronto para rodar no XAMPP e versionamento com Git.
+- **PHP **
+- **HTML5 / CSS3**
+- **Bootstrap **
+- **JavaScript / jQuery**
+- **XAMPP** (para testes locais)
+- **Git e GitHub** (para versionamento)
 
+---
 
+##  Estrutura de pastas
 
-\## Como rodar (XAMPP)
-
-1\. Copie a pasta `gerador-curriculo` para `htdocs` do XAMPP (ex: `C:\\xampp\\htdocs\\gerador-curriculo`).
-
-2\. Inicie o Apache no painel do XAMPP.
-
-3\. Acesse no navegador: `http://localhost/gerador-curriculo/index.php`.
-
-
-
-\## Sugestão de commits (Git)
-
-\- `init: project structure`
-
-\- `feat: add bootstrap form and personal fields`
-
-\- `feat: dynamic fields for experiences and education`
-
-\- `feat: calc age with js`
-
-\- `feat: generate formatted cv in php`
-
-\- `chore: add README and gitignore`
-
-
-
-\## Observações
-
-\- O projeto não salva no banco; se quiser persistir, podemos adicionar salvamento em JSON ou SQLite.
+gerador-cv/
+│
+├── index.php
+├── gerar_curriculo.php
+├── README.md
+│
+├── css/
+│ └── style.css
+│
+└── js/
+└── script.js
 
 
 
+# gerador-cv
+e499c6bdcffd34489f3c935875067fb435ee8634
