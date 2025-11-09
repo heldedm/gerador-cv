@@ -30,15 +30,15 @@ O sistema permite que o usuário preencha seus dados pessoais, experiências pro
 
 ##  Estrutura de pastas
 
-gerador-cv
-    index.php
-    gerar_curriculo.php
-    README.md
-    css/
-       style.css
-    js/
-       script.js
+gerador-cv/
+│
+├── index.php
+├── gerar_curriculo.php
+├── README.md
+│
+├── css/
+│ └── style.css
+│
+└── js/
+└── script.js
 
-
-# gerador-cv
-e499c6bdcffd34489f3c935875067fb435ee8634
